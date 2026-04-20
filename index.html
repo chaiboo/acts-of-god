@@ -160,9 +160,9 @@
   }
   .hero > .stat-strip {
     grid-column: 2;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 2;
     align-self: start;
-    margin-top: 6px;
+    margin-top: 4px;
     justify-self: end;
     width: 260px;
   }
@@ -192,9 +192,10 @@
     font-variation-settings: "opsz" 144, "SOFT" 50, "wght" 380;
     font-weight: 380;
     font-size: clamp(32px, 3.6vw, 56px);
-    line-height: 0.98;
+    line-height: 1;
     letter-spacing: -0.02em;
-    margin: 0 0 8px;
+    margin: 0;
+    padding-bottom: 2px;
     color: var(--ink);
   }
   .hero h1 em {
@@ -210,9 +211,9 @@
     font-style: italic;
     font-variation-settings: "opsz" 36, "SOFT" 60, "wght" 380;
     font-size: 17px;
-    line-height: 1.28;
+    line-height: 1.24;
     color: var(--ink);
-    margin: 0 0 10px;
+    margin: 4px 0 10px;
     letter-spacing: -0.005em;
   }
   .hero .dek em { font-style: italic; }
@@ -332,6 +333,7 @@
     border: 0.5px solid var(--rule);
     padding: 10px 12px 8px;
     position: relative;
+    max-width: 880px;
     box-shadow: 0 1px 0 rgba(26,26,40,0.04), 0 10px 30px -18px rgba(26,26,40,0.20);
     transition: box-shadow .2s ease, transform .2s ease;
     cursor: zoom-in;
