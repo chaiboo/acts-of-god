@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Domain migration — where the act-of-God defense lives, by decade</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,400..600&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --page: #ffffff;
+    --card: #ffffff;
+    --ink: #1a1a28;
+    --ink2: #5a5870;
+    --rule: #e4dfef;
+    --ny: #0039A6;
+    --ny-deep: #002060;
+    --il: #E84A27;
+    --il-deep: #B03418;
+    --gold: #f5b400;
+    --plum: #a23d7a;
+  }
+  html, body { margin: 0; padding: 0; background: var(--page); color: var(--ink); font-family: "Source Serif 4", Georgia, serif; font-size: 16px; line-height: 1.55; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 56px 44px 72px; }
+  .eyebrow { font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink2); margin-bottom: 12px; }
+  h1 { font-family: "Fraunces", "Instrument Serif", Georgia, serif; font-weight: 500; font-style: italic; font-size: 44px; line-height: 1.06; letter-spacing: -0.01em; margin: 0 0 14px; max-width: 920px; }
+  h1 em.tort { font-style: italic; color: var(--plum); }
+  .dek { font-size: 16px; color: var(--ink2); max-width: 820px; margin: 0 0 28px; }
+  .frame { margin-top: 28px; background: var(--card); border: 0.5px solid var(--rule); border-radius: 3px; padding: 28px; }
+  footer { margin-top: 32px; font-family: "JetBrains Mono", monospace; font-size: 10.5px; color: var(--ink2); letter-spacing: 0.08em; text-transform: uppercase; }
+  .source { margin-top: 8px; font-family: "Source Serif 4", serif; font-size: 12.5px; text-transform: none; letter-spacing: 0; line-height: 1.5; color: var(--ink); }
+  svg text { dominant-baseline: middle; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Acts of God &middot; Exhibit II &middot; Doctrinal domain by decade</div>
+  <h1>Both courts begin in carrier and contract. Only Illinois migrates into <em class="tort">tort</em>.</h1>
+  <p class="dek">72 adjudicated cases &mdash; each one a single dot, placed at (decade, doctrinal domain). NY (top panel) empties after 1918. IL (bottom panel) keeps the argument running and drops it into the tort row after 1930, where four of the eight post-1920 IL cases are Industrial-Commission workers'-compensation appeals testing the "special or greater risk" doctrine on tornado and lightning injuries at work.</p>
+
+  <section class="frame">
+    <div id="chart"></div>
+  </section>
+
+  <footer>
+    <div>Source &middot; Caselaw Access Project &middot; classification by Gemini 2.5 Pro</div>
+    <div class="source">Each dot is one merits-adjudicated case (defense-succeeded gold, defense-failed coral ring, not-reached dashed grey ring). Rows are the seven doctrinal domains the classifier used; columns are decades 1830&ndash;2010. NY: 35 cases. IL: 37 cases (including one <i>not-reached</i>, <i>Schwartz v. Daegling</i>, 1870).</div>
+  </footer>
+</div>
+
+<script>
+(async function(){
+  const res = await fetch('domain_migration.svg');
+  const svgText = await res.text();
+  document.getElementById('chart').innerHTML = svgText;
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,298 @@
+{
+  "rows": [
+    {
+      "state": "IL",
+      "decade": 1830,
+      "domain": "other",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1840,
+      "domain": "contract",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1850,
+      "domain": "common_carrier",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1850,
+      "domain": "contract",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1850,
+      "domain": "other",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1860,
+      "domain": "common_carrier",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1860,
+      "domain": "contract",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1860,
+      "domain": "other",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1870,
+      "domain": "common_carrier",
+      "n": 5
+    },
+    {
+      "state": "IL",
+      "decade": 1870,
+      "domain": "contract",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1870,
+      "domain": "tort",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1880,
+      "domain": "tort",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1890,
+      "domain": "common_carrier",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1890,
+      "domain": "contract",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1890,
+      "domain": "tort",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1900,
+      "domain": "common_carrier",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1900,
+      "domain": "property",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1900,
+      "domain": "tort",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1910,
+      "domain": "tort",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1920,
+      "domain": "contract",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1920,
+      "domain": "property",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1930,
+      "domain": "tort",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1950,
+      "domain": "tort",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1960,
+      "domain": "tort",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1980,
+      "domain": "tort",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 2000,
+      "domain": "contract",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1850,
+      "domain": "common_carrier",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1850,
+      "domain": "contract",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1860,
+      "domain": "common_carrier",
+      "n": 4
+    },
+    {
+      "state": "NY",
+      "decade": 1860,
+      "domain": "contract",
+      "n": 3
+    },
+    {
+      "state": "NY",
+      "decade": 1860,
+      "domain": "tort",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1870,
+      "domain": "admiralty",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1870,
+      "domain": "common_carrier",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1870,
+      "domain": "contract",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1870,
+      "domain": "insurance",
+      "n": 3
+    },
+    {
+      "state": "NY",
+      "decade": 1870,
+      "domain": "tort",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1880,
+      "domain": "common_carrier",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1880,
+      "domain": "contract",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1880,
+      "domain": "insurance",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1880,
+      "domain": "other",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1890,
+      "domain": "common_carrier",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1890,
+      "domain": "contract",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1890,
+      "domain": "insurance",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1890,
+      "domain": "other",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1890,
+      "domain": "property",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1900,
+      "domain": "common_carrier",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1900,
+      "domain": "contract",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1910,
+      "domain": "common_carrier",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1910,
+      "domain": "insurance",
+      "n": 1
+    }
+  ]
+}

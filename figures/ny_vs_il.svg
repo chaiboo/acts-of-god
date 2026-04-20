@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 600" width="100%" height="auto" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Decade-by-decade merits-adjudicated act-of-God rate per 10,000 opinions: New York Court of Appeals vs. Illinois Supreme Court, 1820-2010.">
+<defs>
+<style>
+  .ax-tick { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10.5px; fill: #5a5870; letter-spacing: 0.02em; }
+  .ax-cap  { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10px; fill: #5a5870; letter-spacing: 0.14em; text-transform: uppercase; }
+  .eyebrow { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10.5px; fill: #1a1a28; letter-spacing: 0.16em; text-transform: uppercase; }
+  .state   { font-family: "Fraunces", "Instrument Serif", Georgia, serif; font-size: 22px; font-weight: 500; font-style: italic; letter-spacing: 0.02em; }
+  .headline { font-family: "Fraunces", "Instrument Serif", Georgia, serif; font-style: italic; font-size: 19px; font-weight: 400; fill: #1a1a28; }
+  .body    { font-family: "Fraunces", "Source Serif 4", "Instrument Serif", Georgia, serif; font-style: italic; font-size: 13px; fill: #1a1a28; }
+  .mono    { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10.5px; fill: #1a1a28; letter-spacing: 0.04em; }
+  .rail    { stroke: #dad7e6; stroke-width: 0.6; }
+  .rail-bold { stroke: #1a1a28; stroke-width: 0.8; opacity: 0.35; }
+  text { dominant-baseline: middle; }
+</style>
+<linearGradient id="gWash" x1="0" x2="0" y1="0" y2="1">
+  <stop offset="0%" stop-color="#f5b400" stop-opacity="0.18"/>
+  <stop offset="100%" stop-color="#f5b400" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1040" height="600" fill="#ffffff"/>
+<text class="eyebrow" x="76" y="30" text-anchor="start">merits-adjudication rate per 10k opinions · by decade</text>
+<text class="mono" x="76" y="48" text-anchor="start" fill="#5a5870" style="letter-spacing:0.02em">New York Court of Appeals vs. Illinois Supreme Court · 1840–2010</text>
+<g transform="translate(76,68)">
+<line class="rail" x1="0" x2="856" y1="356.0460548247301" y2="356.0460548247301" stroke-dasharray="1 3"/>
+<text class="ax-tick" x="-10" y="356.0460548247301" text-anchor="end">10</text>
+<line class="rail" x1="0" x2="856" y1="288.0921096494602" y2="288.0921096494602" stroke-dasharray="1 3"/>
+<text class="ax-tick" x="-10" y="288.0921096494602" text-anchor="end">20</text>
+<line class="rail" x1="0" x2="856" y1="220.13816447419035" y2="220.13816447419035" stroke-dasharray="1 3"/>
+<text class="ax-tick" x="-10" y="220.13816447419035" text-anchor="end">30</text>
+<line class="rail" x1="0" x2="856" y1="152.18421929892048" y2="152.18421929892048" stroke-dasharray="1 3"/>
+<text class="ax-tick" x="-10" y="152.18421929892048" text-anchor="end">40</text>
+<line class="rail" x1="0" x2="856" y1="84.23027412365059" y2="84.23027412365059" stroke-dasharray="1 3"/>
+<text class="ax-tick" x="-10" y="84.23027412365059" text-anchor="end">50</text>
+<line class="rail" x1="0" x2="856" y1="16.276328948380694" y2="16.276328948380694" stroke-dasharray="1 3"/>
+<text class="ax-tick" x="-10" y="16.276328948380694" text-anchor="end">60</text>
+<line class="rail-bold" x1="0" x2="856" y1="424" y2="424"/>
+<text class="ax-tick" x="-10" y="424" text-anchor="end">0</text>
+<text class="ax-cap" transform="translate(-54, 212) rotate(-90)" text-anchor="middle">rate per 10k · adjudicated</text>
+<rect x="466.9444949954503" y="0" width="389.0555050045497" height="424" fill="#0039A6" opacity="0.045"/>
+<line x1="466.9444949954503" x2="466.9444949954503" y1="-10" y2="430" stroke="#0039A6" stroke-width="0.7" stroke-dasharray="3 3" opacity="0.55"/>
+<text class="mono" x="472.9444949954503" y="-2" text-anchor="start" fill="#0039A6" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase">1920 →</text>
+<text class="ax-tick" x="19.0828025477707" y="446" text-anchor="middle">1800s</text>
+<text class="ax-tick" x="96.97179253867152" y="446" text-anchor="middle">1820s</text>
+<text class="ax-tick" x="174.8607825295723" y="446" text-anchor="middle">1840s</text>
+<text class="ax-tick" x="252.7497725204731" y="446" text-anchor="middle">1860s</text>
+<text class="ax-tick" x="330.63876251137395" y="446" text-anchor="middle">1880s</text>
+<text class="ax-tick" x="408.5277525022748" y="446" text-anchor="middle">1900s</text>
+<text class="ax-tick" x="486.41674249317555" y="446" text-anchor="middle">1920s</text>
+<text class="ax-tick" x="564.3057324840764" y="446" text-anchor="middle">1940s</text>
+<text class="ax-tick" x="642.1947224749772" y="446" text-anchor="middle">1960s</text>
+<text class="ax-tick" x="720.083712465878" y="446" text-anchor="middle">1980s</text>
+<text class="ax-tick" x="797.9727024567788" y="446" text-anchor="middle">2000s</text>
+<text class="ax-tick" x="836.9171974522292" y="446" text-anchor="middle">2010s</text>
+<path d="M 19.0828025477707 424 C 25.57 424.00 51.54 424.00 58.0272975432211 424 M 135.91628753412192 424 C 142.41 424.00 161.88 452.82 174.8607825295723 424 C 187.84 395.18 200.82 314.19 213.80527752502272 251.09118650152578 C 226.79 188.00 239.77 39.62 252.7497725204731 45.4285714285715 C 265.73 51.24 278.71 233.14 291.69426751592357 285.93796958740415 C 304.68 338.74 317.66 347.55 330.63876251137395 362.2230684411621 C 343.62 376.89 356.60 366.90 369.58325750682434 373.96551016744877 C 382.56 381.03 395.55 399.32 408.5277525022748 404.63992101956563 C 421.51 409.96 434.49 402.66 447.47224749772516 405.88347821627303 C 460.45 409.11 473.44 420.98 486.41674249317555 424 C 499.40 427.02 512.38 424.00 525.361237488626 424 C 538.34 424.00 551.32 424.00 564.3057324840764 424 C 577.29 424.00 590.27 424.00 603.2502274795268 424 C 616.23 424.00 629.21 424.00 642.1947224749772 424 C 655.18 424.00 668.16 424.00 681.1392174704276 424 C 694.12 424.00 707.10 424.00 720.083712465878 424 C 733.07 424.00 746.05 424.00 759.0282074613284 424 C 772.01 424.00 791.48 424.00 797.9727024567788 424" fill="none" stroke="#0039A6" stroke-width="6" opacity="0.14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 58.0272975432211 424 C 64.52 424.00 83.99 461.26 96.97179253867152 424 C 109.95 386.74 122.93 212.62 135.91628753412192 200.4654973459497 C 148.90 188.31 161.88 349.90 174.8607825295723 351.08541682693544 C 187.84 352.27 200.82 209.40 213.80527752502272 207.587070800318 C 226.79 205.78 239.77 320.94 252.7497725204731 340.2331717824448 C 265.73 359.53 278.71 313.24 291.69426751592357 323.34661640639024 C 304.68 333.46 317.66 399.64 330.63876251137395 400.8888632458907 C 343.62 402.14 356.60 336.04 369.58325750682434 330.84873195374007 C 382.56 325.66 395.55 357.05 408.5277525022748 369.7455701720645 C 421.51 382.44 434.49 403.71 447.47224749772516 407.0318998897351 C 460.45 410.35 473.44 394.63 486.41674249317555 389.6696668974537 C 499.40 384.71 512.38 371.56 525.361237488626 377.281662692002 C 538.34 383.00 551.32 421.63 564.3057324840764 424 C 577.29 426.37 590.27 395.93 603.2502274795268 391.53160499525603 C 616.23 387.14 629.21 392.22 642.1947224749772 397.6338692719953 C 655.18 403.05 668.16 425.47 681.1392174704276 424 C 694.12 422.53 707.10 388.79 720.083712465878 388.7930610046927 C 733.07 388.79 746.05 425.28 759.0282074613284 424 C 772.01 422.72 784.99 381.10 797.9727024567788 381.1006744108521 C 810.95 381.10 830.43 416.85 836.9171974522292 424" fill="none" stroke="#E84A27" stroke-width="6" opacity="0.14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 19.0828025477707 424 C 25.57 424.00 51.54 424.00 58.0272975432211 424 M 135.91628753412192 424 C 142.41 424.00 161.88 452.82 174.8607825295723 424 C 187.84 395.18 200.82 314.19 213.80527752502272 251.09118650152578 C 226.79 188.00 239.77 39.62 252.7497725204731 45.4285714285715 C 265.73 51.24 278.71 233.14 291.69426751592357 285.93796958740415 C 304.68 338.74 317.66 347.55 330.63876251137395 362.2230684411621 C 343.62 376.89 356.60 366.90 369.58325750682434 373.96551016744877 C 382.56 381.03 395.55 399.32 408.5277525022748 404.63992101956563 C 421.51 409.96 434.49 402.66 447.47224749772516 405.88347821627303 C 460.45 409.11 473.44 420.98 486.41674249317555 424 C 499.40 427.02 512.38 424.00 525.361237488626 424 C 538.34 424.00 551.32 424.00 564.3057324840764 424 C 577.29 424.00 590.27 424.00 603.2502274795268 424 C 616.23 424.00 629.21 424.00 642.1947224749772 424 C 655.18 424.00 668.16 424.00 681.1392174704276 424 C 694.12 424.00 707.10 424.00 720.083712465878 424 C 733.07 424.00 746.05 424.00 759.0282074613284 424 C 772.01 424.00 791.48 424.00 797.9727024567788 424" fill="none" stroke="#0039A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 58.0272975432211 424 C 64.52 424.00 83.99 461.26 96.97179253867152 424 C 109.95 386.74 122.93 212.62 135.91628753412192 200.4654973459497 C 148.90 188.31 161.88 349.90 174.8607825295723 351.08541682693544 C 187.84 352.27 200.82 209.40 213.80527752502272 207.587070800318 C 226.79 205.78 239.77 320.94 252.7497725204731 340.2331717824448 C 265.73 359.53 278.71 313.24 291.69426751592357 323.34661640639024 C 304.68 333.46 317.66 399.64 330.63876251137395 400.8888632458907 C 343.62 402.14 356.60 336.04 369.58325750682434 330.84873195374007 C 382.56 325.66 395.55 357.05 408.5277525022748 369.7455701720645 C 421.51 382.44 434.49 403.71 447.47224749772516 407.0318998897351 C 460.45 410.35 473.44 394.63 486.41674249317555 389.6696668974537 C 499.40 384.71 512.38 371.56 525.361237488626 377.281662692002 C 538.34 383.00 551.32 421.63 564.3057324840764 424 C 577.29 426.37 590.27 395.93 603.2502274795268 391.53160499525603 C 616.23 387.14 629.21 392.22 642.1947224749772 397.6338692719953 C 655.18 403.05 668.16 425.47 681.1392174704276 424 C 694.12 422.53 707.10 388.79 720.083712465878 388.7930610046927 C 733.07 388.79 746.05 425.28 759.0282074613284 424 C 772.01 422.72 784.99 381.10 797.9727024567788 381.1006744108521 C 810.95 381.10 830.43 416.85 836.9171974522292 424" fill="none" stroke="#E84A27" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="799.9727024567788" cy="424" r="4" fill="#0039A6"/>
+<text class="state" fill="#0039A6" x="809.9727024567788" y="414" text-anchor="start">N.Y.</text>
+<circle cx="838.9171974522292" cy="424" r="4" fill="#E84A27"/>
+<text class="state" fill="#E84A27" x="848.9171974522292" y="436" text-anchor="start">Ill.</text>
+<text class="headline" x="482.9444949954503" y="50.879999999999995" text-anchor="start" fill="#002060">New York stops adjudicating.</text>
+<text class="body" x="482.9444949954503" y="68.88" text-anchor="start">Zero merits adjudications in the</text>
+<text class="body" x="482.9444949954503" y="84.88" text-anchor="start">Court of Appeals after 1918.</text>
+<text class="headline" x="482.9444949954503" y="203.51999999999998" text-anchor="start" fill="#B03418">Illinois keeps going.</text>
+<text class="body" x="482.9444949954503" y="221.51999999999998" text-anchor="start">Eight post-1920 IL adjudications;</text>
+<text class="body" x="482.9444949954503" y="237.51999999999998" text-anchor="start">four are Industrial Commission</text>
+<text class="body" x="482.9444949954503" y="253.51999999999998" text-anchor="start">workers'-compensation appeals.</text>
+<path d="M 478.9444949954503 231.51999999999998 Q 504.15286624203816 273.52 527.361237488626 373.281662692002" fill="none" stroke="#B03418" stroke-width="0.7" opacity="0.6"/>
+<line x1="0" x2="22" y1="472" y2="472" stroke="#0039A6" stroke-width="2.2"/>
+<text class="mono" x="28" y="472" text-anchor="start" fill="#1a1a28">NY rate</text>
+<line x1="100" x2="122" y1="472" y2="472" stroke="#E84A27" stroke-width="2.2"/>
+<text class="mono" x="128" y="472" text-anchor="start" fill="#1a1a28">IL rate</text>
+<text class="mono" x="0" y="494" text-anchor="start" fill="#5a5870" style="letter-spacing:0.12em;text-transform:uppercase">Where the defense IS adjudicated, success rates converge</text>
+<text class="body" x="0" y="510" text-anchor="start">NY 11 / 35 succeeded · 31%   ·   IL 12 / 36 succeeded · 33%   —   the divergence is survival, not outcome.</text>
+</g>
+</svg>

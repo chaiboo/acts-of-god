@@ -1,0 +1,20 @@
+# CAP bulk data — never commit, script-downloadable from static.case.law
+data/raw/
+data/interim/classify_cache.jsonl
+data/interim/batch/
+data/interim/download_il.log
+
+# Large parquet files — commit decade_rates.parquet (summary) but not the big ones
+data/interim/hits.parquet
+data/processed/cases.parquet
+data/processed/cases_per_year.parquet
+data/processed/classified.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# OS
+.DS_Store

@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 600" width="100%" height="auto" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Domain migration of the act-of-God defense across decades: New York and Illinois, 1840-2010. Each dot is one adjudicated case; rows are doctrinal domains; columns are decades.">
+<defs><style>
+  .mono    { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10.5px; fill: #1a1a28; letter-spacing: 0.04em; }
+  .eyebrow { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10.5px; fill: #1a1a28; letter-spacing: 0.16em; text-transform: uppercase; }
+  .ax-tick { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10px; fill: #5a5870; }
+  .ax-cap  { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10px; fill: #5a5870; letter-spacing: 0.14em; text-transform: uppercase; }
+  .rowlbl  { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 11px; fill: #1a1a28; }
+  .state   { font-family: "Fraunces", "Instrument Serif", Georgia, serif; font-size: 22px; font-weight: 500; font-style: italic; letter-spacing: 0.02em; }
+  .headline { font-family: "Fraunces", "Instrument Serif", Georgia, serif; font-style: italic; font-size: 18px; fill: #1a1a28; }
+  .body    { font-family: "Fraunces", "Source Serif 4", "Instrument Serif", Georgia, serif; font-style: italic; font-size: 13px; fill: #1a1a28; }
+  text { dominant-baseline: middle; }
+</style></defs>
+<rect x="0" y="0" width="1040" height="600" fill="#ffffff"/>
+<text class="eyebrow" x="200" y="30" text-anchor="start">every adjudicated case, by doctrinal domain</text>
+<text class="mono" x="200" y="48" text-anchor="start" fill="#5a5870" style="letter-spacing:0.02em">Rows = doctrinal domain · columns = decade · one dot = one case · 72 cases total</text>
+<text class="mono" x="920.3" y="36" text-anchor="start" fill="#1a1a28">not reached</text>
+<circle cx="908.3" cy="36" r="4.5" fill="#ffffff" stroke="#5a5870" stroke-width="1" stroke-dasharray="1.2 1.4"/>
+<text class="mono" x="854.0999999999999" y="36" text-anchor="start" fill="#1a1a28">failed</text>
+<circle cx="842.0999999999999" cy="36" r="4.5" fill="#ffffff" stroke="#0039A6" stroke-width="1.4"/>
+<text class="mono" x="767.8" y="36" text-anchor="start" fill="#1a1a28">succeeded</text>
+<circle cx="755.8" cy="36" r="4.5" fill="#f5b400" stroke="#f5b400" stroke-width="0.6"/>
+<g transform="translate(200,82)">
+<rect x="0" y="0" width="800" height="206" fill="#e5ecf8" opacity="0.7"/>
+<rect x="0" y="242" width="800" height="206" fill="#fce4d8" opacity="0.7"/>
+<g transform="translate(0,0)">
+<text class="state" x="-75" y="93" text-anchor="end" fill="#002060">NEW YORK</text>
+<text class="mono" x="-75" y="113" text-anchor="end" fill="#5a5870" style="letter-spacing:0.02em">35 cases</text>
+<line x1="0" x2="800" y1="14.714285714285714" y2="14.714285714285714" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="14.714285714285714" text-anchor="end" fill="#5a5870">carrier</text>
+<line x1="0" x2="800" y1="44.14285714285714" y2="44.14285714285714" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="44.14285714285714" text-anchor="end" fill="#5a5870">contract</text>
+<line x1="0" x2="800" y1="73.57142857142857" y2="73.57142857142857" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="73.57142857142857" text-anchor="end" fill="#5a5870">insurance</text>
+<line x1="0" x2="800" y1="102.99999999999999" y2="102.99999999999999" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="102.99999999999999" text-anchor="end" fill="#5a5870">admiralty</text>
+<line x1="0" x2="800" y1="132.42857142857142" y2="132.42857142857142" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="132.42857142857142" text-anchor="end" fill="#5a5870">property</text>
+<line x1="0" x2="800" y1="161.85714285714286" y2="161.85714285714286" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="161.85714285714286" text-anchor="end" fill="#5a5870">other</text>
+<line x1="0" x2="800" y1="191.28571428571428" y2="191.28571428571428" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="191.28571428571428" text-anchor="end" fill="#5a5870">tort</text>
+<line x1="21.05263157894737" x2="21.05263157894737" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="63.15789473684211" x2="63.15789473684211" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="105.26315789473685" x2="105.26315789473685" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="147.3684210526316" x2="147.3684210526316" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="189.47368421052633" x2="189.47368421052633" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="231.57894736842107" x2="231.57894736842107" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="273.68421052631584" x2="273.68421052631584" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="315.7894736842105" x2="315.7894736842105" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="357.8947368421053" x2="357.8947368421053" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="400" x2="400" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="442.1052631578948" x2="442.1052631578948" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="484.2105263157895" x2="484.2105263157895" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="526.3157894736843" x2="526.3157894736843" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="568.4210526315791" x2="568.4210526315791" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="610.5263157894738" x2="610.5263157894738" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="652.6315789473684" x2="652.6315789473684" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="694.7368421052632" x2="694.7368421052632" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="736.842105263158" x2="736.842105263158" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="778.9473684210527" x2="778.9473684210527" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<circle cx="105.26315789473685" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="129.47368421052633" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="141.40350877192984" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="153.33333333333334" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="165.26315789473685" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="179.47368421052633" cy="14.714285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="199.47368421052633" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="231.57894736842107" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="273.68421052631584" cy="14.714285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="315.7894736842105" cy="14.714285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="357.8947368421053" cy="14.714285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="95.26315789473685" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="115.26315789473685" cy="44.14285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="132.3684210526316" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="147.3684210526316" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="162.3684210526316" cy="44.14285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="179.47368421052633" cy="44.14285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="199.47368421052633" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="231.57894736842107" cy="44.14285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="273.68421052631584" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="315.7894736842105" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="174.47368421052633" cy="73.57142857142857" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="189.47368421052633" cy="73.57142857142857" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="204.47368421052633" cy="73.57142857142857" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="231.57894736842107" cy="73.57142857142857" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="273.68421052631584" cy="73.57142857142857" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="357.8947368421053" cy="73.57142857142857" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="179.47368421052633" cy="102.99999999999999" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="199.47368421052633" cy="102.99999999999999" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="273.68421052631584" cy="132.42857142857142" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="221.57894736842107" cy="161.85714285714286" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="241.57894736842107" cy="161.85714285714286" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="273.68421052631584" cy="161.85714285714286" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="147.3684210526316" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+<circle cx="189.47368421052633" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#002060" stroke-width="1.4"/>
+</g>
+<g transform="translate(0,242)">
+<text class="state" x="-75" y="93" text-anchor="end" fill="#B03418">ILLINOIS</text>
+<text class="mono" x="-75" y="113" text-anchor="end" fill="#5a5870" style="letter-spacing:0.02em">37 cases</text>
+<line x1="0" x2="800" y1="14.714285714285714" y2="14.714285714285714" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="14.714285714285714" text-anchor="end" fill="#5a5870">carrier</text>
+<line x1="0" x2="800" y1="44.14285714285714" y2="44.14285714285714" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="44.14285714285714" text-anchor="end" fill="#5a5870">contract</text>
+<line x1="0" x2="800" y1="73.57142857142857" y2="73.57142857142857" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="73.57142857142857" text-anchor="end" fill="#5a5870">insurance</text>
+<line x1="0" x2="800" y1="102.99999999999999" y2="102.99999999999999" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="102.99999999999999" text-anchor="end" fill="#5a5870">admiralty</text>
+<line x1="0" x2="800" y1="132.42857142857142" y2="132.42857142857142" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="132.42857142857142" text-anchor="end" fill="#5a5870">property</text>
+<line x1="0" x2="800" y1="161.85714285714286" y2="161.85714285714286" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="161.85714285714286" text-anchor="end" fill="#5a5870">other</text>
+<line x1="0" x2="800" y1="191.28571428571428" y2="191.28571428571428" stroke="#e4dfef" stroke-width="0.6" opacity="0.5"/>
+<text class="rowlbl" x="-6" y="191.28571428571428" text-anchor="end" fill="#5a5870">tort</text>
+<line x1="21.05263157894737" x2="21.05263157894737" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="63.15789473684211" x2="63.15789473684211" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="105.26315789473685" x2="105.26315789473685" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="147.3684210526316" x2="147.3684210526316" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="189.47368421052633" x2="189.47368421052633" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="231.57894736842107" x2="231.57894736842107" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="273.68421052631584" x2="273.68421052631584" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="315.7894736842105" x2="315.7894736842105" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="357.8947368421053" x2="357.8947368421053" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="400" x2="400" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="442.1052631578948" x2="442.1052631578948" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="484.2105263157895" x2="484.2105263157895" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="526.3157894736843" x2="526.3157894736843" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="568.4210526315791" x2="568.4210526315791" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="610.5263157894738" x2="610.5263157894738" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="652.6315789473684" x2="652.6315789473684" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="694.7368421052632" x2="694.7368421052632" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="736.842105263158" x2="736.842105263158" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<line x1="778.9473684210527" x2="778.9473684210527" y1="-4" y2="210" stroke="#e4dfef" stroke-width="0.4" opacity="0.7"/>
+<circle cx="95.26315789473685" cy="14.714285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="115.26315789473685" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="147.3684210526316" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="171.57894736842107" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="180.5263157894737" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="189.47368421052633" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="198.42105263157896" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="207.3684210526316" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="273.68421052631584" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="315.7894736842105" cy="14.714285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="63.15789473684211" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="95.26315789473685" cy="44.14285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="115.26315789473685" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="147.3684210526316" cy="44.14285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="179.47368421052633" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#5a5870" stroke-width="1" stroke-dasharray="1.2 1.4"/>
+<circle cx="199.47368421052633" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="273.68421052631584" cy="44.14285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="400" cy="44.14285714285714" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="736.842105263158" cy="44.14285714285714" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="315.7894736842105" cy="132.42857142857142" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="400" cy="132.42857142857142" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="21.05263157894737" cy="161.85714285714286" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="105.26315789473685" cy="161.85714285714286" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="137.3684210526316" cy="161.85714285714286" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="157.3684210526316" cy="161.85714285714286" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="189.47368421052633" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="231.57894736842107" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="263.68421052631584" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="283.68421052631584" cy="191.28571428571428" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="305.7894736842105" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="325.7894736842105" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="357.8947368421053" cy="191.28571428571428" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="432.1052631578948" cy="191.28571428571428" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="452.1052631578948" cy="191.28571428571428" r="4.3" fill="#f5b400" stroke="#1a1a28" stroke-width="0.5"/>
+<circle cx="526.3157894736843" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="568.4210526315791" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+<circle cx="652.6315789473684" cy="191.28571428571428" r="4.3" fill="#ffffff" stroke="#B03418" stroke-width="1.4"/>
+</g>
+<text class="ax-tick" x="21.05263157894737" y="466" text-anchor="middle">1830s</text>
+<text class="ax-tick" x="63.15789473684211" y="466" text-anchor="middle">1840s</text>
+<text class="ax-tick" x="147.3684210526316" y="466" text-anchor="middle">1860s</text>
+<text class="ax-tick" x="231.57894736842107" y="466" text-anchor="middle">1880s</text>
+<text class="ax-tick" x="315.7894736842105" y="466" text-anchor="middle">1900s</text>
+<text class="ax-tick" x="400" y="466" text-anchor="middle">1920s</text>
+<text class="ax-tick" x="484.2105263157895" y="466" text-anchor="middle">1940s</text>
+<text class="ax-tick" x="568.4210526315791" y="466" text-anchor="middle">1960s</text>
+<text class="ax-tick" x="652.6315789473684" y="466" text-anchor="middle">1980s</text>
+<text class="ax-tick" x="736.842105263158" y="466" text-anchor="middle">2000s</text>
+<text class="ax-tick" x="778.9473684210527" y="466" text-anchor="middle">2010s</text>
+<rect x="378.94736842105266" y="0" width="421.05263157894734" height="206" fill="#0039A6" opacity="0.04"/>
+<text class="headline" x="796" y="81" text-anchor="end" fill="#002060">After Barnet 1918 — silence.</text>
+<text class="body" x="796" y="97" text-anchor="end" fill="#1a1a28">No NY Court of Appeals</text>
+<text class="body" x="796" y="113" text-anchor="end" fill="#1a1a28">adjudication in any domain.</text>
+<text class="headline" x="610.5263157894738" y="313.57142857142856" text-anchor="start" fill="#B03418">Illinois migrates into tort.</text>
+<text class="body" x="610.5263157894738" y="331.57142857142856" text-anchor="start">Eight post-1920 adjudications;</text>
+<text class="body" x="610.5263157894738" y="347.57142857142856" text-anchor="start">four are Industrial-Commission</text>
+<text class="body" x="610.5263157894738" y="363.57142857142856" text-anchor="start">workers'-comp appeals.</text>
+<path d="M 189.47368421052633 248.71428571428572 Q 442.1052631578948 216.71428571428572 694.7368421052632 419.2857142857143" fill="none" stroke="#a23d7a" stroke-width="1.4" opacity="0.55" stroke-dasharray="4 4"/>
+<path d="M 694.7368421052632 419.2857142857143 L 690.7368421052632 413.2857142857143 M 694.7368421052632 419.2857142857143 L 698.7368421052632 413.2857142857143" stroke="#a23d7a" stroke-width="1.4" fill="none" opacity="0.7"/>
+</g>
+</svg>

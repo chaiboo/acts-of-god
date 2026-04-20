@@ -1,0 +1,203 @@
+{
+  "corpus": {
+    "source": "Caselaw Access Project, static.case.law",
+    "reporters": [
+      "N.Y.",
+      "N.Y.2d",
+      "N.Y.3d"
+    ],
+    "jurisdiction": "New York Court of Appeals (state supreme court), 1847-2017",
+    "n_cases_scanned": 102635,
+    "n_cases_with_hits": 90
+  },
+  "decade_rates": [
+    {
+      "decade": 1850,
+      "n_cases": 1179,
+      "active": 3.0,
+      "boilerplate": 0.0,
+      "quotation": 4.0,
+      "n_any_mention": 7.0,
+      "rate_any_per_10k": 59.37234944868533,
+      "rate_active_per_10k": 25.445292620865143,
+      "rate_boilerplate_per_10k": 0.0
+    },
+    {
+      "decade": 1860,
+      "n_cases": 1436,
+      "active": 8.0,
+      "boilerplate": 4.0,
+      "quotation": 6.0,
+      "n_any_mention": 18.0,
+      "rate_any_per_10k": 125.34818941504179,
+      "rate_active_per_10k": 55.710306406685234,
+      "rate_boilerplate_per_10k": 27.855153203342617
+    },
+    {
+      "decade": 1870,
+      "n_cases": 4922,
+      "active": 11.0,
+      "boilerplate": 2.0,
+      "quotation": 11.0,
+      "n_any_mention": 24.0,
+      "rate_any_per_10k": 48.760666395774074,
+      "rate_active_per_10k": 22.348638764729785,
+      "rate_boilerplate_per_10k": 4.063388866314506
+    },
+    {
+      "decade": 1880,
+      "n_cases": 5500,
+      "active": 3.0,
+      "boilerplate": 2.0,
+      "quotation": 4.0,
+      "n_any_mention": 9.0,
+      "rate_any_per_10k": 16.363636363636363,
+      "rate_active_per_10k": 5.454545454545455,
+      "rate_boilerplate_per_10k": 3.6363636363636362
+    },
+    {
+      "decade": 1890,
+      "n_cases": 6791,
+      "active": 4.0,
+      "boilerplate": 2.0,
+      "quotation": 4.0,
+      "n_any_mention": 10.0,
+      "rate_any_per_10k": 14.725371815638344,
+      "rate_active_per_10k": 5.890148726255338,
+      "rate_boilerplate_per_10k": 2.945074363127669
+    },
+    {
+      "decade": 1900,
+      "n_cases": 7021,
+      "active": 1.0,
+      "boilerplate": 3.0,
+      "quotation": 1.0,
+      "n_any_mention": 5.0,
+      "rate_any_per_10k": 7.121492664862555,
+      "rate_active_per_10k": 1.4242985329725109,
+      "rate_boilerplate_per_10k": 4.2728955989175335
+    },
+    {
+      "decade": 1910,
+      "n_cases": 7502,
+      "active": 2.0,
+      "boilerplate": 2.0,
+      "quotation": 0.0,
+      "n_any_mention": 4.0,
+      "rate_any_per_10k": 5.3319114902692615,
+      "rate_active_per_10k": 2.6659557451346307,
+      "rate_boilerplate_per_10k": 2.6659557451346307
+    },
+    {
+      "decade": 1920,
+      "n_cases": 5699,
+      "active": 0.0,
+      "boilerplate": 1.0,
+      "quotation": 0.0,
+      "n_any_mention": 1.0,
+      "rate_any_per_10k": 1.7546938059308652,
+      "rate_active_per_10k": 0.0,
+      "rate_boilerplate_per_10k": 1.7546938059308652
+    },
+    {
+      "decade": 1930,
+      "n_cases": 7603,
+      "active": 0.0,
+      "boilerplate": 1.0,
+      "quotation": 2.0,
+      "n_any_mention": 3.0,
+      "rate_any_per_10k": 3.945810864132579,
+      "rate_active_per_10k": 0.0,
+      "rate_boilerplate_per_10k": 1.315270288044193
+    },
+    {
+      "decade": 1940,
+      "n_cases": 6397,
+      "active": 0.0,
+      "boilerplate": 1.0,
+      "quotation": 0.0,
+      "n_any_mention": 1.0,
+      "rate_any_per_10k": 1.5632327653587619,
+      "rate_active_per_10k": 0.0,
+      "rate_boilerplate_per_10k": 1.5632327653587619
+    },
+    {
+      "decade": 1950,
+      "n_cases": 5751,
+      "active": 0.0,
+      "boilerplate": 0.0,
+      "quotation": 0.0,
+      "n_any_mention": 0.0,
+      "rate_any_per_10k": 0.0,
+      "rate_active_per_10k": 0.0,
+      "rate_boilerplate_per_10k": 0.0
+    },
+    {
+      "decade": 1960,
+      "n_cases": 7418,
+      "active": 0.0,
+      "boilerplate": 0.0,
+      "quotation": 1.0,
+      "n_any_mention": 1.0,
+      "rate_any_per_10k": 1.3480722566729577,
+      "rate_active_per_10k": 0.0,
+      "rate_boilerplate_per_10k": 0.0
+    },
+    {
+      "decade": 1970,
+      "n_cases": 7725,
+      "active": 1.0,
+      "boilerplate": 1.0,
+      "quotation": 2.0,
+      "n_any_mention": 4.0,
+      "rate_any_per_10k": 5.17799352750809,
+      "rate_active_per_10k": 1.2944983818770226,
+      "rate_boilerplate_per_10k": 1.2944983818770226
+    },
+    {
+      "decade": 1980,
+      "n_cases": 7523,
+      "active": 0.0,
+      "boilerplate": 1.0,
+      "quotation": 1.0,
+      "n_any_mention": 2.0,
+      "rate_any_per_10k": 2.658513890735079,
+      "rate_active_per_10k": 0.0,
+      "rate_boilerplate_per_10k": 1.3292569453675396
+    },
+    {
+      "decade": 1990,
+      "n_cases": 4725,
+      "active": 0.0,
+      "boilerplate": 0.0,
+      "quotation": 0.0,
+      "n_any_mention": 0.0,
+      "rate_any_per_10k": 0.0,
+      "rate_active_per_10k": 0.0,
+      "rate_boilerplate_per_10k": 0.0
+    },
+    {
+      "decade": 2000,
+      "n_cases": 5179,
+      "active": 0.0,
+      "boilerplate": 0.0,
+      "quotation": 0.0,
+      "n_any_mention": 0.0,
+      "rate_any_per_10k": 0.0,
+      "rate_active_per_10k": 0.0,
+      "rate_boilerplate_per_10k": 0.0
+    },
+    {
+      "decade": 2010,
+      "n_cases": 10079,
+      "active": 0.0,
+      "boilerplate": 0.0,
+      "quotation": 0.0,
+      "n_any_mention": 0.0,
+      "rate_any_per_10k": 0.0,
+      "rate_active_per_10k": 0.0,
+      "rate_boilerplate_per_10k": 0.0
+    }
+  ],
+  "success_overlay": []
+}

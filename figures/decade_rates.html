@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Acts of God in the New York Court of Appeals, 1847–2017</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap');
+
+  :root {
+    --ink: #1b1815;
+    --ink-soft: #4d4641;
+    --rule: #cfc6bb;
+    --paper: #f5efe5;
+    --paper-deep: #ede5d6;
+    --active: #8b2a1f;
+    --boiler: #94793c;
+    --quote: #b8a88a;
+    --rail: #8a7f6e;
+    --accent: #2e4a3a;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 72px 48px 96px;
+  }
+
+  header .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 14px;
+  }
+
+  header h1 {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin: 0 0 18px;
+    max-width: 820px;
+  }
+
+  header h1 em {
+    font-style: italic;
+    color: var(--active);
+  }
+
+  header .dek {
+    font-size: 17px;
+    color: var(--ink-soft);
+    max-width: 680px;
+    margin: 0;
+  }
+
+  .frame {
+    margin-top: 56px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 32px 0 40px;
+  }
+
+  .legend {
+    display: flex;
+    gap: 32px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+  }
+
+  .legend .swatch {
+    display: inline-block;
+    width: 18px;
+    height: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .caption {
+    font-family: 'Instrument Serif', serif;
+    font-size: 15.5px;
+    font-style: italic;
+    color: var(--ink-soft);
+    margin-top: 28px;
+    max-width: 820px;
+    line-height: 1.6;
+  }
+
+  .caption strong {
+    color: var(--ink);
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+
+  .annotation {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    fill: var(--ink-soft);
+    letter-spacing: 0.04em;
+  }
+
+  .annotation-body {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: 13px;
+    fill: var(--ink);
+  }
+
+  .axis-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    fill: var(--ink-soft);
+  }
+
+  .decade-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    fill: var(--ink);
+  }
+
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    fill: var(--ink-soft);
+  }
+
+  .rail {
+    stroke: var(--rail);
+    stroke-width: 0.5;
+    opacity: 0.3;
+  }
+
+  .spine {
+    stroke: var(--ink);
+    stroke-width: 0.6;
+    opacity: 0.4;
+  }
+
+  .tick-mark-active { stroke: var(--active); stroke-width: 1.2; opacity: 0.92; }
+  .tick-mark-boilerplate { stroke: var(--boiler); stroke-width: 1.2; opacity: 0.85; }
+  .tick-mark-quotation { stroke: var(--quote); stroke-width: 1.2; opacity: 0.9; }
+
+  .rate-line-active { fill: none; stroke: var(--active); stroke-width: 1.7; }
+  .rate-line-boiler { fill: none; stroke: var(--boiler); stroke-width: 1.5; stroke-dasharray: 2.5 2.5; opacity: 0.75; }
+
+  .zero-marker {
+    fill: none;
+    stroke: var(--active);
+    stroke-width: 0.8;
+    opacity: 0.6;
+  }
+
+  footer {
+    margin-top: 56px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--ink-soft);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .source {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.5;
+  }
+
+  svg text { dominant-baseline: middle; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Acts of God &middot; New York Court of Appeals &middot; 1847–2017</div>
+    <h1>The year the doctrine <em>stopped doing work</em> was not the year it stopped being cited.</h1>
+    <p class="dek">Across 170 years of New York's highest court, the <em>act of God</em> defense appears in 90 reported opinions. But the grammar of those invocations shifts decisively after 1916: live adjudication effectively ends, while boilerplate recitation of the common-carrier formula persists for another sixty years as a fossil.</p>
+  </header>
+
+  <section class="frame">
+    <div class="legend">
+      <span><span class="swatch" style="background: var(--active)"></span>Live adjudication</span>
+      <span><span class="swatch" style="background: var(--boiler); background-image: linear-gradient(90deg, var(--boiler) 50%, transparent 50%); background-size: 6px 3px;"></span>Boilerplate recitation</span>
+      <span><span class="swatch" style="background: var(--quote)"></span>Quotation from prior case</span>
+    </div>
+
+    <div id="chart"></div>
+
+    <p class="caption">
+      <strong>READING THE CHART.</strong> The upper panel shows every one of the 91 hit-cases as a single tick, stacked within its decade and color-coded by how the mention is doing work in the opinion. Active adjudication (oxblood) sits above the spine; boilerplate and quotation (tan, sand) sit below. The lower panel traces the rate per 10,000 Court of Appeals opinions &mdash; solid oxblood for active adjudication, dashed mustard for boilerplate. The two series peel apart around the turn of the twentieth century: boilerplate becomes the dominant grammar while live adjudication trends toward zero. After 1916 the Court of Appeals does not meaningfully apply the doctrine again.
+    </p>
+  </section>
+
+  <footer>
+    <div>Source &middot; Caselaw Access Project (static.case.law) &middot; reporters N.Y., N.Y.2d, N.Y.3d</div>
+    <div class="source">226,156 New York appellate opinions scanned across four CAP reporters; stratified to the 102,635 opinions in the New York Court of Appeals reporter series (N.Y., N.Y.2d, N.Y.3d) 1847–2017 for a single-court denominator. 90 cases hit the phrase. Mention-type triage is lexical (regex + quote-balance + common-carrier recitation detector); validation by spot-check, not a held-out hand-coded set. Trial-court and settled cases are invisible to this corpus; post-2017 opinions require CourtListener. See README.md and findings.md.</div>
+  </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script>
+(async function(){
+  const payload = await d3.json("decade_rates.json");
+  const examples = await d3.json("examples.json").catch(() => []);
+  render(payload, examples);
+})();
+
+function render(payload, examples){
+  const rows = payload.decade_rates;
+  const data = rows.map(d => ({
+    decade: +d.decade,
+    n_cases: +d.n_cases,
+    active: +d.active,
+    boilerplate: +d.boilerplate,
+    quotation: +d.quotation || 0,
+    any: +d.n_any_mention,
+    rate_active: +d.rate_active_per_10k,
+    rate_boiler: +d.rate_boilerplate_per_10k,
+  })).sort((a,b) => a.decade - b.decade);
+
+  const W = 1000;
+  const H = 640;
+  const M = { top: 48, right: 140, bottom: 56, left: 72 };
+  const innerW = W - M.left - M.right;
+  const innerH = H - M.top - M.bottom;
+
+  const svg = d3.select("#chart").append("svg")
+    .attr("viewBox", `0 0 ${W} ${H}`)
+    .attr("width", "100%")
+    .attr("height", "auto")
+    .attr("preserveAspectRatio", "xMidYMid meet")
+    .attr("role", "img")
+    .attr("aria-label", "Decade-level invocation rate of the act-of-God defense in the New York Court of Appeals, 1847 to 2017");
+
+  const g = svg.append("g").attr("transform", `translate(${M.left},${M.top})`);
+
+  const decades = data.map(d => d.decade);
+  const xDec = d3.scaleBand()
+    .domain(decades)
+    .range([0, innerW])
+    .paddingInner(0.24)
+    .paddingOuter(0.12);
+
+  // Proportions:
+  // TOP (tick-strip): ~50%. Spine horizontal midline; active stacks up, boiler/quote stack down.
+  // GAP: ~8%
+  // BOTTOM (rate-curves): ~42%.
+  const topH = innerH * 0.50;
+  const gapH = innerH * 0.08;
+  const botH = innerH - topH - gapH;
+
+  // ========== TOP PANEL ==========
+  const top = g.append("g");
+  const mid = topH * 0.55;
+
+  // Section label
+  top.append("text")
+    .attr("class", "section-label")
+    .attr("x", 0).attr("y", -18)
+    .text("case-level mentions, stacked within decade");
+
+  // Spine
+  top.append("line")
+    .attr("class", "spine")
+    .attr("x1", 0).attr("x2", innerW)
+    .attr("y1", mid).attr("y2", mid);
+
+  const tickSpacing = 4.2;
+  const tickW = Math.min(xDec.bandwidth(), 22);
+
+  data.forEach(d => {
+    const x0 = xDec(d.decade) + (xDec.bandwidth() - tickW) / 2;
+    // Active upward (oxblood)
+    for (let i = 0; i < d.active; i++){
+      const y = mid - (i + 1) * tickSpacing;
+      top.append("line")
+        .attr("class", "tick-mark-active")
+        .attr("x1", x0).attr("x2", x0 + tickW)
+        .attr("y1", y).attr("y2", y);
+    }
+    // Quotation upward, above active (sand)
+    for (let i = 0; i < d.quotation; i++){
+      const y = mid - (d.active + i + 1) * tickSpacing;
+      top.append("line")
+        .attr("class", "tick-mark-quotation")
+        .attr("x1", x0).attr("x2", x0 + tickW)
+        .attr("y1", y).attr("y2", y);
+    }
+    // Boilerplate downward (mustard)
+    for (let i = 0; i < d.boilerplate; i++){
+      const y = mid + (i + 1) * tickSpacing;
+      top.append("line")
+        .attr("class", "tick-mark-boilerplate")
+        .attr("x1", x0).attr("x2", x0 + tickW)
+        .attr("y1", y).attr("y2", y);
+    }
+    // zero-indicator: decades with 0 hits get a small open circle at spine
+    if (d.any === 0){
+      top.append("circle")
+        .attr("class", "zero-marker")
+        .attr("cx", xDec(d.decade) + xDec.bandwidth()/2)
+        .attr("cy", mid)
+        .attr("r", 2.4);
+    }
+  });
+
+  // decade labels (every other decade) at bottom of top panel
+  data.forEach((d, i) => {
+    if (d.decade % 20 === 0){
+      top.append("text")
+        .attr("class", "decade-label")
+        .attr("x", xDec(d.decade) + xDec.bandwidth()/2)
+        .attr("y", topH - 4)
+        .attr("text-anchor", "middle")
+        .text(`${d.decade}s`);
+    }
+  });
+
+  // y-axis cues
+  top.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", `translate(-52, ${mid - 38}) rotate(-90)`)
+    .attr("text-anchor", "middle")
+    .text("↑ adjudication / quotation");
+  top.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", `translate(-52, ${mid + 38}) rotate(-90)`)
+    .attr("text-anchor", "middle")
+    .text("↓ boilerplate");
+
+  // Mark the 1860s peak with an annotation arc
+  const peak = data.find(d => d.decade === 1860);
+  if (peak){
+    const px = xDec(peak.decade) + xDec.bandwidth()/2;
+    const py = mid - (peak.active + peak.quotation + 1) * tickSpacing - 6;
+    top.append("path")
+      .attr("d", `M ${px} ${py} Q ${px + 40} ${py - 28} ${px + 110} ${py - 22}`)
+      .attr("fill", "none")
+      .attr("stroke", "var(--active)")
+      .attr("stroke-width", 0.6);
+    top.append("text")
+      .attr("class", "annotation-body")
+      .attr("x", px + 116).attr("y", py - 26)
+      .attr("text-anchor", "start")
+      .text(`peak: 8 live adjudications, 1860s`);
+    top.append("text")
+      .attr("class", "annotation")
+      .attr("x", px + 116).attr("y", py - 13)
+      .attr("text-anchor", "start")
+      .text("contract, carriage, innkeeper cases");
+  }
+
+  // Mark the 1916 threshold with a vertical tick-line across BOTH panels
+  const thresholdYear = 1916;
+  // find the band boundary between 1910 and 1920
+  const d1910 = data.find(d => d.decade === 1910);
+  const d1920 = data.find(d => d.decade === 1920);
+  if (d1910 && d1920){
+    const bx = (xDec(d1910.decade) + xDec.bandwidth() + xDec(d1920.decade)) / 2;
+    top.append("line")
+      .attr("x1", bx).attr("x2", bx)
+      .attr("y1", 0).attr("y2", topH)
+      .attr("stroke", "var(--ink)")
+      .attr("stroke-width", 0.4)
+      .attr("stroke-dasharray", "2 3")
+      .attr("opacity", 0.55);
+    top.append("text")
+      .attr("class", "annotation")
+      .attr("x", bx + 4).attr("y", 8)
+      .attr("text-anchor", "start")
+      .text("1916 — last decade of Appellate Division digitization");
+  }
+
+  // ========== BOTTOM PANEL ==========
+  const bot = g.append("g").attr("transform", `translate(0, ${topH + gapH})`);
+
+  bot.append("text")
+    .attr("class", "section-label")
+    .attr("x", 0).attr("y", -14)
+    .text("invocation rate per 10,000 court-of-appeals opinions");
+
+  const maxRate = d3.max(data, d => Math.max(d.rate_active, d.rate_boiler));
+  const yRate = d3.scaleLinear()
+    .domain([0, maxRate * 1.08])
+    .range([botH, 0]);
+
+  const xCenter = d => xDec(d.decade) + xDec.bandwidth()/2;
+
+  // Gridlines
+  const ticks = yRate.ticks(4).filter(t => t > 0);
+  ticks.forEach(t => {
+    bot.append("line")
+      .attr("class", "rail")
+      .attr("x1", 0).attr("x2", innerW)
+      .attr("y1", yRate(t)).attr("y2", yRate(t));
+    bot.append("text")
+      .attr("class", "axis-label")
+      .attr("x", -10).attr("y", yRate(t))
+      .attr("text-anchor", "end")
+      .text(t.toFixed(0));
+  });
+  // zero line, heavier
+  bot.append("line")
+    .attr("class", "spine")
+    .attr("x1", 0).attr("x2", innerW)
+    .attr("y1", yRate(0)).attr("y2", yRate(0));
+  bot.append("text")
+    .attr("class", "axis-label")
+    .attr("x", -10).attr("y", yRate(0))
+    .attr("text-anchor", "end")
+    .text("0");
+
+  bot.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", `translate(-52, ${botH/2}) rotate(-90)`)
+    .attr("text-anchor", "middle")
+    .text("rate per 10k opinions");
+
+  // boilerplate line
+  const lineBoil = d3.line()
+    .x(xCenter)
+    .y(d => yRate(d.rate_boiler))
+    .curve(d3.curveMonotoneX);
+  bot.append("path")
+    .datum(data)
+    .attr("class", "rate-line-boiler")
+    .attr("d", lineBoil);
+
+  // active line
+  const lineAct = d3.line()
+    .x(xCenter)
+    .y(d => yRate(d.rate_active))
+    .curve(d3.curveMonotoneX);
+  bot.append("path")
+    .datum(data)
+    .attr("class", "rate-line-active")
+    .attr("d", lineAct);
+
+  // dots
+  data.forEach(d => {
+    bot.append("circle")
+      .attr("fill", "var(--active)")
+      .attr("cx", xCenter(d)).attr("cy", yRate(d.rate_active)).attr("r", 2.4);
+    bot.append("circle")
+      .attr("fill", "var(--boiler)")
+      .attr("cx", xCenter(d)).attr("cy", yRate(d.rate_boiler)).attr("r", 2.0);
+  });
+
+  // decade labels on x-axis
+  data.forEach(d => {
+    if (d.decade % 20 === 0){
+      bot.append("text")
+        .attr("class", "decade-label")
+        .attr("x", xCenter(d)).attr("y", botH + 18)
+        .attr("text-anchor", "middle")
+        .text(`${d.decade}s`);
+    }
+  });
+  // Show endpoints always
+  [data[0], data[data.length-1]].forEach(d => {
+    if (d.decade % 20 !== 0){
+      bot.append("text")
+        .attr("class", "decade-label")
+        .attr("x", xCenter(d)).attr("y", botH + 18)
+        .attr("text-anchor", "middle")
+        .text(`${d.decade}s`);
+    }
+  });
+
+  // 1916 vertical line on bottom too
+  if (d1910 && d1920){
+    const bx = (xDec(d1910.decade) + xDec.bandwidth() + xDec(d1920.decade)) / 2;
+    bot.append("line")
+      .attr("x1", bx).attr("x2", bx)
+      .attr("y1", 0).attr("y2", botH)
+      .attr("stroke", "var(--ink)")
+      .attr("stroke-width", 0.4)
+      .attr("stroke-dasharray", "2 3")
+      .attr("opacity", 0.55);
+  }
+
+  // Final-decade annotations off to the right
+  const last = data[data.length - 1];
+  const ann = bot.append("g");
+  const annY = botH * 0.55;
+  ann.append("line")
+    .attr("x1", xCenter(last)).attr("x2", xCenter(last) + 18)
+    .attr("y1", yRate(0)).attr("y2", annY)
+    .attr("stroke", "var(--active)")
+    .attr("stroke-width", 0.6);
+  ann.append("text")
+    .attr("class", "annotation-body")
+    .attr("x", xCenter(last) + 24).attr("y", annY - 8)
+    .attr("text-anchor", "start")
+    .text("2000s onward:");
+  ann.append("text")
+    .attr("class", "annotation-body")
+    .attr("x", xCenter(last) + 24).attr("y", annY + 8)
+    .attr("text-anchor", "start")
+    .text("zero invocations");
+  ann.append("text")
+    .attr("class", "annotation")
+    .attr("x", xCenter(last) + 24).attr("y", annY + 24)
+    .attr("text-anchor", "start")
+    .text(`in ${(last.n_cases).toLocaleString()} opinions`);
+
+  // Peak rate annotation
+  const peakRateRow = data.reduce((a,b) => b.rate_active > a.rate_active ? b : a, data[0]);
+  const prx = xCenter(peakRateRow);
+  const pry = yRate(peakRateRow.rate_active);
+  bot.append("text")
+    .attr("class", "annotation")
+    .attr("x", prx + 8).attr("y", pry - 4)
+    .attr("text-anchor", "start")
+    .text(`${peakRateRow.rate_active.toFixed(0)} / 10k`);
+
+  // Title block for bottom-right
+  const boilPeak = data.reduce((a,b) => b.rate_boiler > a.rate_boiler ? b : a, data[0]);
+  bot.append("text")
+    .attr("class", "annotation")
+    .attr("x", xCenter(boilPeak)).attr("y", yRate(boilPeak.rate_boiler) - 8)
+    .attr("text-anchor", "middle")
+    .text("boilerplate");
+}
+</script>
+
+</body>
+</html>

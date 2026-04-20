@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Disposition flow — every mention of the defense, by decade</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,400..600&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --page: #ffffff;
+    --card: #ffffff;
+    --ink: #1a1a28;
+    --ink2: #5a5870;
+    --rule: #e4dfef;
+    --ny: #0039A6;
+    --ny-deep: #002060;
+    --il: #E84A27;
+    --il-deep: #B03418;
+    --gold: #f5b400;
+    --indigo: #3d4e9e;
+  }
+  html, body { margin: 0; padding: 0; background: var(--page); color: var(--ink); font-family: "Source Serif 4", Georgia, serif; font-size: 16px; line-height: 1.55; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 56px 44px 72px; }
+  .eyebrow { font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink2); margin-bottom: 12px; }
+  h1 { font-family: "Fraunces", "Instrument Serif", Georgia, serif; font-weight: 500; font-style: italic; font-size: 44px; line-height: 1.06; letter-spacing: -0.01em; margin: 0 0 14px; max-width: 940px; }
+  h1 em.fail { font-style: italic; color: var(--ny-deep); }
+  h1 em.succ { font-style: italic; color: var(--gold); text-shadow: 0 0 0 #b37e00; }
+  h1 em.nr   { font-style: italic; color: var(--indigo); }
+  .dek { font-size: 16px; color: var(--ink2); max-width: 840px; margin: 0 0 28px; }
+  .frame { margin-top: 28px; background: var(--card); border: 0.5px solid var(--rule); border-radius: 3px; padding: 28px; }
+  footer { margin-top: 32px; font-family: "JetBrains Mono", monospace; font-size: 10.5px; color: var(--ink2); letter-spacing: 0.08em; text-transform: uppercase; }
+  .source { margin-top: 8px; font-family: "Source Serif 4", serif; font-size: 12.5px; text-transform: none; letter-spacing: 0; line-height: 1.5; color: var(--ink); }
+  svg text { dominant-baseline: middle; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Acts of God &middot; Exhibit III &middot; Mention vs. adjudication</div>
+  <h1>Most of the time, the court <em class="nr">mentions</em> the defense and never decides it. Where it does decide, the defense <em class="fail">fails</em> about twice as often as it <em class="succ">succeeds</em>.</h1>
+  <p class="dek">Each tile is one opinion. The saturated tiles at the bottom of each decade column are the adjudicated ledger; the ring-cloud above is the much larger volume of boilerplate, quotation, and dicta. NY: 78 of 117 mentions never adjudicated (67%). IL: 106 of 152 (70%).</p>
+
+  <section class="frame">
+    <div id="chart"></div>
+  </section>
+
+  <footer>
+    <div>Source &middot; Caselaw Access Project &middot; Gemini 2.5 Pro classification</div>
+    <div class="source">Every appearance of the <em>act of God</em> phrase in NY Court of Appeals and Illinois Supreme Court opinions, classified by disposition. Adjudicated totals: NY 35 (11 succ / 24 fail); IL 37 (12 succ / 24 fail / 1 not-reached). Mere-mention tiles outnumber the adjudicated ledger roughly two-to-one in both courts.</div>
+  </footer>
+</div>
+
+<script>
+(async function(){
+  const res = await fetch('disposition_flow.svg');
+  const svgText = await res.text();
+  document.getElementById('chart').innerHTML = svgText;
+})();
+</script>
+</body>
+</html>

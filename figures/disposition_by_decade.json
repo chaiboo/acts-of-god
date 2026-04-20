@@ -1,0 +1,436 @@
+{
+  "rows": [
+    {
+      "state": "IL",
+      "decade": 1820,
+      "disposition": "not_reached",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1830,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1840,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1850,
+      "disposition": "failed",
+      "n": 3
+    },
+    {
+      "state": "IL",
+      "decade": 1850,
+      "disposition": "not_reached",
+      "n": 8
+    },
+    {
+      "state": "IL",
+      "decade": 1850,
+      "disposition": "succeeded",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1860,
+      "disposition": "failed",
+      "n": 4
+    },
+    {
+      "state": "IL",
+      "decade": 1860,
+      "disposition": "not_reached",
+      "n": 6
+    },
+    {
+      "state": "IL",
+      "decade": 1860,
+      "disposition": "succeeded",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1870,
+      "disposition": "failed",
+      "n": 9
+    },
+    {
+      "state": "IL",
+      "decade": 1870,
+      "disposition": "not_reached",
+      "n": 21
+    },
+    {
+      "state": "IL",
+      "decade": 1870,
+      "disposition": "succeeded",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1880,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1880,
+      "disposition": "not_reached",
+      "n": 8
+    },
+    {
+      "state": "IL",
+      "decade": 1890,
+      "disposition": "failed",
+      "n": 3
+    },
+    {
+      "state": "IL",
+      "decade": 1890,
+      "disposition": "not_reached",
+      "n": 6
+    },
+    {
+      "state": "IL",
+      "decade": 1890,
+      "disposition": "succeeded",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1900,
+      "disposition": "failed",
+      "n": 4
+    },
+    {
+      "state": "IL",
+      "decade": 1900,
+      "disposition": "not_reached",
+      "n": 21
+    },
+    {
+      "state": "IL",
+      "decade": 1900,
+      "disposition": "succeeded",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1910,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1910,
+      "disposition": "not_reached",
+      "n": 11
+    },
+    {
+      "state": "IL",
+      "decade": 1910,
+      "disposition": "succeeded",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1920,
+      "disposition": "failed",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1920,
+      "disposition": "not_reached",
+      "n": 4
+    },
+    {
+      "state": "IL",
+      "decade": 1920,
+      "disposition": "succeeded",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1930,
+      "disposition": "not_reached",
+      "n": 4
+    },
+    {
+      "state": "IL",
+      "decade": 1930,
+      "disposition": "succeeded",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1940,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1940,
+      "disposition": "not_reached",
+      "n": 4
+    },
+    {
+      "state": "IL",
+      "decade": 1950,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1950,
+      "disposition": "not_reached",
+      "n": 5
+    },
+    {
+      "state": "IL",
+      "decade": 1960,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1960,
+      "disposition": "not_reached",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1970,
+      "disposition": "not_reached",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1980,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 1980,
+      "disposition": "not_reached",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 1990,
+      "disposition": "not_reached",
+      "n": 2
+    },
+    {
+      "state": "IL",
+      "decade": 2000,
+      "disposition": "not_reached",
+      "n": 1
+    },
+    {
+      "state": "IL",
+      "decade": 2000,
+      "disposition": "succeeded",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1840,
+      "disposition": "not_reached",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1850,
+      "disposition": "failed",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1850,
+      "disposition": "not_reached",
+      "n": 6
+    },
+    {
+      "state": "NY",
+      "decade": 1850,
+      "disposition": "succeeded",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1860,
+      "disposition": "failed",
+      "n": 7
+    },
+    {
+      "state": "NY",
+      "decade": 1860,
+      "disposition": "not_reached",
+      "n": 11
+    },
+    {
+      "state": "NY",
+      "decade": 1860,
+      "disposition": "succeeded",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1870,
+      "disposition": "failed",
+      "n": 10
+    },
+    {
+      "state": "NY",
+      "decade": 1870,
+      "disposition": "not_reached",
+      "n": 19
+    },
+    {
+      "state": "NY",
+      "decade": 1870,
+      "disposition": "succeeded",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1880,
+      "disposition": "failed",
+      "n": 3
+    },
+    {
+      "state": "NY",
+      "decade": 1880,
+      "disposition": "not_reached",
+      "n": 9
+    },
+    {
+      "state": "NY",
+      "decade": 1880,
+      "disposition": "succeeded",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1890,
+      "disposition": "failed",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1890,
+      "disposition": "not_reached",
+      "n": 8
+    },
+    {
+      "state": "NY",
+      "decade": 1890,
+      "disposition": "succeeded",
+      "n": 3
+    },
+    {
+      "state": "NY",
+      "decade": 1900,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1900,
+      "disposition": "not_reached",
+      "n": 5
+    },
+    {
+      "state": "NY",
+      "decade": 1900,
+      "disposition": "succeeded",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1910,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1910,
+      "disposition": "not_reached",
+      "n": 4
+    },
+    {
+      "state": "NY",
+      "decade": 1910,
+      "disposition": "succeeded",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1920,
+      "disposition": "not_reached",
+      "n": 2
+    },
+    {
+      "state": "NY",
+      "decade": 1930,
+      "disposition": "not_reached",
+      "n": 4
+    },
+    {
+      "state": "NY",
+      "decade": 1940,
+      "disposition": "not_reached",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1950,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1950,
+      "disposition": "not_reached",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1960,
+      "disposition": "not_reached",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1970,
+      "disposition": "not_reached",
+      "n": 4
+    },
+    {
+      "state": "NY",
+      "decade": 1980,
+      "disposition": "failed",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1980,
+      "disposition": "not_reached",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "decade": 1990,
+      "disposition": "not_reached",
+      "n": 1
+    }
+  ]
+}

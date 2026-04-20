@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Two courts, one doctrine — New York vs. Illinois, 1820–2010</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap');
+
+  :root {
+    --ink: #1b1815;
+    --ink-soft: #4d4641;
+    --ink-faint: #8a7f6e;
+    --rule: #cfc6bb;
+    --paper: #f5efe5;
+    --paper-deep: #ede5d6;
+    --ny: #0039A6;          /* NYC subway-bullet blue — New York */
+    --il: #E84A27;          /* Illini orange — Illinois */
+    --ribbon: #c4a46a;      /* mustard-tan, divergence fill */
+    --accent: #94793c;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  .wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 72px 48px 96px;
+  }
+
+  header .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 14px;
+  }
+
+  header h1 {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin: 0 0 18px;
+    max-width: 900px;
+  }
+
+  header h1 em.ny { font-style: italic; color: var(--ny); }
+  header h1 em.il { font-style: italic; color: var(--il); }
+
+  header .dek {
+    font-size: 17px;
+    color: var(--ink-soft);
+    max-width: 720px;
+    margin: 0;
+  }
+
+  .frame {
+    margin-top: 56px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 32px 0 40px;
+  }
+
+  .legend {
+    display: flex;
+    gap: 32px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .legend .swatch {
+    display: inline-block;
+    width: 18px;
+    height: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .legend .dot {
+    display: inline-block;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  .legend .dot.open {
+    background: transparent;
+    border: 1.3px solid var(--ink-soft);
+    width: 7px; height: 7px;
+  }
+
+  .caption {
+    font-family: 'Instrument Serif', serif;
+    font-size: 15.5px;
+    font-style: italic;
+    color: var(--ink-soft);
+    margin-top: 28px;
+    max-width: 900px;
+    line-height: 1.6;
+  }
+
+  .caption strong {
+    color: var(--ink);
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+
+  .annotation {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    fill: var(--ink-soft);
+    letter-spacing: 0.04em;
+  }
+
+  .annotation-body {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: 13.5px;
+    fill: var(--ink);
+  }
+
+  .annotation-large {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: 17px;
+    fill: var(--ink);
+  }
+
+  .axis-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    fill: var(--ink-soft);
+  }
+
+  .decade-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    fill: var(--ink);
+  }
+
+  .state-label {
+    font-family: 'Instrument Serif', serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .rail { stroke: var(--ink-faint); stroke-width: 0.5; opacity: 0.28; }
+  .spine { stroke: var(--ink); stroke-width: 0.6; opacity: 0.45; }
+
+  .line-ny { fill: none; stroke: var(--ny); stroke-width: 1.9; }
+  .line-il { fill: none; stroke: var(--il); stroke-width: 1.9; }
+
+  footer {
+    margin-top: 56px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--ink-soft);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .source {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.5;
+  }
+
+  svg text { dominant-baseline: middle; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Acts of God &middot; NY Court of Appeals vs. Illinois Supreme Court &middot; 1820–2010</div>
+    <h1>In <em class="ny">New York</em>, the doctrine dies at 1920.<br>In <em class="il">Illinois</em>, it migrates into workers' comp and keeps adjudicating.</h1>
+    <p class="dek">Both courts adjudicate the <em>act of God</em> defense at nearly identical success rates through the nineteenth century &mdash; NY 31% (11/35), IL 32% (12/37). The divergence is not in outcome but in survival: after 1920 the New York Court of Appeals ceases to adjudicate the defense on the merits at all, while the Illinois Supreme Court continues through the 2000s as the doctrine relocates from common-carrier contract into Industrial Commission tort.</p>
+  </header>
+
+  <section class="frame">
+    <div class="legend">
+      <span><span class="swatch" style="background: var(--ny)"></span>New York Court of Appeals</span>
+      <span><span class="swatch" style="background: var(--il)"></span>Illinois Supreme Court</span>
+      <span><span class="swatch" style="background: var(--ribbon); opacity: 0.55"></span>Divergence ribbon</span>
+      <span><span class="dot" style="background: var(--ink)"></span>defense succeeded</span>
+      <span><span class="dot open"></span>defense failed</span>
+    </div>
+
+    <div id="chart"></div>
+
+    <p class="caption">
+      <strong>READING THE CHART.</strong> Each decade's rate of merits-adjudicated <em>act of God</em> invocations per 10,000 state supreme-court opinions, traced as two trajectories sharing a common baseline. The shaded ribbon between them is the <em>divergence</em> itself &mdash; its opening after 1920 is the finding. Small filled dots at each decade mark opinions where the defense succeeded; open rings mark opinions where it failed. Through the nineteenth century the two courts move in loose concert; after 1920 the NY line collapses to zero and does not return, while the IL line persists, animated largely by post-injury Industrial Commission appeals asking whether a tornado or lightning strike <em>arose out of</em> employment.
+    </p>
+  </section>
+
+  <footer>
+    <div>Source &middot; Caselaw Access Project (static.case.law) &middot; reporters N.Y., N.Y.2d, N.Y.3d; Ill., Ill.2d</div>
+    <div class="source">Denominator: 102,635 NY Court of Appeals opinions and 43,307 Illinois Supreme Court opinions, 1800s&ndash;2010s. Hit-cases classified by Gemini 2.5 Pro (Vertex batch) as <em>really_adjudicated</em> (true adjudication of the defense) vs. boilerplate/quotation, with disposition coded succeeded / failed / not_reached / unclear. NY: 35 adjudicated, 11 succeeded. IL: 37 adjudicated, 12 succeeded. Rates are per 10,000 opinions in each court's own denominator.</div>
+  </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script>
+(async function(){
+  const payload = await d3.json("ny_vs_il.json");
+  render(payload.rows);
+})();
+
+function render(rows){
+  // ---- reshape: keyed by decade, NY + IL side-by-side ----
+  const decades = Array.from(new Set(rows.map(r => +r.decade))).sort((a,b) => a - b);
+  const decadeMap = new Map();
+  decades.forEach(d => decadeMap.set(d, { decade: d, NY: null, IL: null }));
+  rows.forEach(r => {
+    const slot = decadeMap.get(+r.decade);
+    slot[r.state] = {
+      n_denom: +r.n_denom,
+      n_mentions: +r.n_mentions,
+      n_really: +r.n_really_adjudicated,
+      n_succ: +r.n_succeeded,
+      n_fail: +r.n_failed,
+      rate: +r.rate_adjudicated_per10k,
+    };
+  });
+  // For missing entries, treat as zero-denom — display as null/break the line.
+  const data = decades.map(d => decadeMap.get(d));
+
+  // Restrict the plotted x-range to decades where at least one court reports denominator > 0.
+  const plotData = data.filter(d =>
+    (d.NY && d.NY.n_denom > 0) || (d.IL && d.IL.n_denom > 0)
+  );
+
+  // ---- dimensions ----
+  const W = 1040;
+  const H = 600;
+  const M = { top: 60, right: 150, bottom: 72, left: 80 };
+  const innerW = W - M.left - M.right;
+  const innerH = H - M.top - M.bottom;
+
+  const svg = d3.select("#chart").append("svg")
+    .attr("viewBox", `0 0 ${W} ${H}`)
+    .attr("width", "100%")
+    .attr("height", "auto")
+    .attr("preserveAspectRatio", "xMidYMid meet")
+    .attr("role", "img")
+    .attr("aria-label", "Decade-by-decade merits-adjudicated act-of-God rate per 10,000 opinions: New York Court of Appeals vs. Illinois Supreme Court, 1820-2010.");
+
+  // paper texture: subtle off-paper panel
+  svg.append("rect")
+    .attr("x", 0).attr("y", 0).attr("width", W).attr("height", H)
+    .attr("fill", "transparent");
+
+  const g = svg.append("g").attr("transform", `translate(${M.left},${M.top})`);
+
+  // ---- scales ----
+  const xDec = d3.scaleBand()
+    .domain(plotData.map(d => d.decade))
+    .range([0, innerW])
+    .paddingInner(0.22)
+    .paddingOuter(0.1);
+
+  const xCenter = d => xDec(d.decade) + xDec.bandwidth() / 2;
+
+  const maxRate = d3.max(plotData, d => Math.max(
+    (d.NY ? d.NY.rate : 0),
+    (d.IL ? d.IL.rate : 0)
+  ));
+  const y = d3.scaleLinear()
+    .domain([0, maxRate * 1.10])
+    .range([innerH, 0]);
+
+  // ---- gridlines ----
+  const yTicks = y.ticks(5).filter(t => t > 0);
+  yTicks.forEach(t => {
+    g.append("line")
+      .attr("class", "rail")
+      .attr("x1", 0).attr("x2", innerW)
+      .attr("y1", y(t)).attr("y2", y(t));
+    g.append("text")
+      .attr("class", "axis-label")
+      .attr("x", -12).attr("y", y(t))
+      .attr("text-anchor", "end")
+      .text(t.toFixed(0));
+  });
+  // baseline (rate = 0)
+  g.append("line")
+    .attr("class", "spine")
+    .attr("x1", 0).attr("x2", innerW)
+    .attr("y1", y(0)).attr("y2", y(0));
+  g.append("text")
+    .attr("class", "axis-label")
+    .attr("x", -12).attr("y", y(0))
+    .attr("text-anchor", "end")
+    .text("0");
+
+  // ---- y-axis caption ----
+  g.append("text")
+    .attr("class", "axis-label")
+    .attr("transform", `translate(-58, ${innerH / 2}) rotate(-90)`)
+    .attr("text-anchor", "middle")
+    .text("rate per 10k opinions · merits-adjudicated");
+
+  // ---- decade labels (every 20yr + endpoints) ----
+  const firstDec = plotData[0].decade;
+  const lastDec = plotData[plotData.length - 1].decade;
+  plotData.forEach(d => {
+    if (d.decade % 20 === 0 || d.decade === firstDec || d.decade === lastDec){
+      g.append("text")
+        .attr("class", "decade-label")
+        .attr("x", xCenter(d))
+        .attr("y", innerH + 22)
+        .attr("text-anchor", "middle")
+        .text(`${d.decade}s`);
+    }
+  });
+
+  // ---- 1920 inflection marker — spans full chart height ----
+  const d1910 = plotData.find(d => d.decade === 1910);
+  const d1920 = plotData.find(d => d.decade === 1920);
+  let inflectionX = null;
+  if (d1910 && d1920){
+    inflectionX = (xDec(d1910.decade) + xDec.bandwidth() + xDec(d1920.decade)) / 2;
+    // a full-height soft band — subtle paper shadow
+    g.append("rect")
+      .attr("x", inflectionX - 1)
+      .attr("y", 0)
+      .attr("width", 2)
+      .attr("height", innerH)
+      .attr("fill", "var(--ink)")
+      .attr("opacity", 0.08);
+    g.append("line")
+      .attr("x1", inflectionX).attr("x2", inflectionX)
+      .attr("y1", -22).attr("y2", innerH)
+      .attr("stroke", "var(--ink)")
+      .attr("stroke-width", 0.5)
+      .attr("stroke-dasharray", "2 3")
+      .attr("opacity", 0.55);
+    g.append("text")
+      .attr("class", "annotation")
+      .attr("x", inflectionX - 6)
+      .attr("y", -28)
+      .attr("text-anchor", "end")
+      .text("1920 — NY inflection");
+  }
+
+  // ---- build the divergence ribbon ----
+  // The ribbon is the area between the NY rate line and the IL rate line,
+  // drawn only over decades where BOTH states have a denominator (>=1 opinion observed).
+  // This makes the post-1920 opening of the gap the central visual event.
+  const ribbonRows = plotData.filter(d =>
+    d.NY && d.NY.n_denom > 0 && d.IL && d.IL.n_denom > 0
+  );
+
+  const ribbonArea = d3.area()
+    .x(xCenter)
+    .y0(d => y(d.NY.rate))
+    .y1(d => y(d.IL.rate))
+    .curve(d3.curveMonotoneX);
+
+  // ribbon gradient: faint in the pre-1920 low-divergence era, stronger post-1920
+  const defs = svg.append("defs");
+  const grad = defs.append("linearGradient")
+    .attr("id", "ribbon-grad")
+    .attr("gradientUnits", "userSpaceOnUse")
+    .attr("x1", 0).attr("y1", 0)
+    .attr("x2", innerW).attr("y2", 0);
+
+  // stop placement depends on where 1920 lives in the scale
+  const gradStop = inflectionX !== null ? (inflectionX / innerW) : 0.5;
+  grad.append("stop").attr("offset", "0%").attr("stop-color", "var(--ribbon)").attr("stop-opacity", 0.22);
+  grad.append("stop").attr("offset", `${Math.max(0, gradStop - 0.02) * 100}%`).attr("stop-color", "var(--ribbon)").attr("stop-opacity", 0.22);
+  grad.append("stop").attr("offset", `${gradStop * 100}%`).attr("stop-color", "var(--ribbon)").attr("stop-opacity", 0.55);
+  grad.append("stop").attr("offset", "100%").attr("stop-color", "var(--ribbon)").attr("stop-opacity", 0.62);
+
+  g.append("path")
+    .datum(ribbonRows)
+    .attr("d", ribbonArea)
+    .attr("fill", "url(#ribbon-grad)")
+    .attr("stroke", "none");
+
+  // ---- the two trajectories ----
+  // Only connect consecutive decades where the state has n_denom > 0.
+  // We use defined() to handle gaps in the domain.
+  const lineBuilder = (stateKey, cls) => {
+    const line = d3.line()
+      .defined(d => d[stateKey] && d[stateKey].n_denom > 0)
+      .x(xCenter)
+      .y(d => y(d[stateKey].rate))
+      .curve(d3.curveMonotoneX);
+    g.append("path")
+      .datum(plotData)
+      .attr("class", cls)
+      .attr("d", line);
+  };
+  lineBuilder("NY", "line-ny");
+  lineBuilder("IL", "line-il");
+
+  // ---- disposition dots: succeeded filled, failed open ----
+  // Positioned exactly on each trajectory, one mark per adjudicated case.
+  // Multiple cases per decade: stagger vertically within a small jitter band above the point.
+  function placeDispositionDots(stateKey, stateColor){
+    const r = 3.2;
+    plotData.forEach(d => {
+      const s = d[stateKey];
+      if (!s || s.n_really === 0) return;
+      const cx = xCenter(d);
+      const cy = y(s.rate);
+      // succeeded: solid filled; failed: open ring. unclear/not_reached: omitted here —
+      // the denominator dot (the line vertex) still registers the adjudication count.
+      const total = s.n_succ + s.n_fail;
+      if (total === 0){
+        // adjudicated but non-binary disposition — draw a small neutral mark
+        g.append("circle")
+          .attr("cx", cx).attr("cy", cy).attr("r", 2)
+          .attr("fill", "none")
+          .attr("stroke", stateColor)
+          .attr("stroke-width", 0.9)
+          .attr("opacity", 0.7);
+        return;
+      }
+      // arrange succ+fail dots on a horizontal sub-row centered on cx, slightly above the vertex
+      const spacing = 7.2;
+      const baseY = cy - 10;
+      const totalW = (total - 1) * spacing;
+      const startX = cx - totalW / 2;
+      // succeeded first (filled), then failed (open)
+      for (let i = 0; i < s.n_succ; i++){
+        g.append("circle")
+          .attr("cx", startX + i * spacing).attr("cy", baseY).attr("r", r)
+          .attr("fill", stateColor)
+          .attr("stroke", "var(--paper)")
+          .attr("stroke-width", 0.8);
+      }
+      for (let j = 0; j < s.n_fail; j++){
+        g.append("circle")
+          .attr("cx", startX + (s.n_succ + j) * spacing).attr("cy", baseY).attr("r", r)
+          .attr("fill", "var(--paper)")
+          .attr("stroke", stateColor)
+          .attr("stroke-width", 1.3);
+      }
+      // a thin connector from the line vertex to the dot row
+      g.append("line")
+        .attr("x1", cx).attr("x2", cx)
+        .attr("y1", cy).attr("y2", baseY + r + 0.5)
+        .attr("stroke", stateColor)
+        .attr("stroke-width", 0.5)
+        .attr("opacity", 0.55);
+    });
+  }
+
+  // IL dots *below* the line (since IL's line runs below NY's in most of the pre-1920 era AND is the only nonzero post-1920)
+  // Actually: place NY dots above its line, IL dots above its line — but flip IL dots BELOW its line
+  // when IL's line sits above NY's, so they don't overlap the ribbon. For simplicity and legibility,
+  // we place both above their respective vertices. The ribbon's lower alpha lets them read.
+  placeDispositionDots("NY", "var(--ny)");
+  placeDispositionDots("IL", "var(--il)");
+
+  // ---- end-of-line state labels ----
+  // NY line terminates at last decade w/ n_denom > 0 (2000s for NY; 2010s has n_denom=0 so NY ends 2000s)
+  // IL line terminates 2000s (2010s has n_denom=126 but rate=0 — still plotted).
+  function lastDefined(stateKey){
+    for (let i = plotData.length - 1; i >= 0; i--){
+      const d = plotData[i];
+      if (d[stateKey] && d[stateKey].n_denom > 0) return d;
+    }
+    return null;
+  }
+  const nyLast = lastDefined("NY");
+  const ilLast = lastDefined("IL");
+
+  // Label NY: put oxblood "NEW YORK" at the terminus, hugging the baseline
+  if (nyLast){
+    g.append("text")
+      .attr("class", "state-label")
+      .attr("fill", "var(--ny)")
+      .attr("x", xCenter(nyLast) + 10)
+      .attr("y", y(nyLast.NY.rate) - 2)
+      .attr("text-anchor", "start")
+      .text("NEW YORK");
+  }
+  if (ilLast){
+    g.append("text")
+      .attr("class", "state-label")
+      .attr("fill", "var(--il)")
+      .attr("x", xCenter(ilLast) + 10)
+      .attr("y", y(ilLast.IL.rate) - 2)
+      .attr("text-anchor", "start")
+      .text("ILLINOIS");
+  }
+
+  // ---- the big post-1920 annotation ----
+  // Find the decade with the largest post-1920 IL rate to anchor the annotation.
+  const post1920 = plotData.filter(d => d.decade >= 1920 && d.IL && d.IL.n_denom > 0);
+  const ilPost1920Peak = post1920.reduce((a, b) =>
+    (b.IL.rate > (a ? a.IL.rate : -1) ? b : a), null);
+
+  if (ilPost1920Peak){
+    const ax = xCenter(ilPost1920Peak);
+    const ay = y(ilPost1920Peak.IL.rate);
+    // arc from the IL peak leftward toward a text block positioned over the ribbon's opening
+    const tx = ax + 40;
+    const ty = Math.min(ay - 60, innerH * 0.28);
+    g.append("path")
+      .attr("d", `M ${ax} ${ay - 10} Q ${ax + 20} ${ty + 20} ${tx} ${ty + 8}`)
+      .attr("fill", "none")
+      .attr("stroke", "var(--il)")
+      .attr("stroke-width", 0.55);
+    g.append("text")
+      .attr("class", "annotation-large")
+      .attr("x", tx + 4).attr("y", ty - 10)
+      .attr("text-anchor", "start")
+      .text("Illinois keeps going.");
+    g.append("text")
+      .attr("class", "annotation-body")
+      .attr("x", tx + 4).attr("y", ty + 8)
+      .attr("text-anchor", "start")
+      .text("Post-1920 adjudications cluster in");
+    g.append("text")
+      .attr("class", "annotation-body")
+      .attr("x", tx + 4).attr("y", ty + 25)
+      .attr("text-anchor", "start")
+      .text("workers' comp: tornadoes and lightning");
+    g.append("text")
+      .attr("class", "annotation-body")
+      .attr("x", tx + 4).attr("y", ty + 42)
+      .attr("text-anchor", "start")
+      .text("tested against ‘arising out of employment.’");
+  }
+
+  // NY-extinction annotation near the 1920 inflection
+  if (inflectionX !== null){
+    const nx = inflectionX - 8;
+    const ny = innerH * 0.78;
+    g.append("text")
+      .attr("class", "annotation-large")
+      .attr("x", nx).attr("y", ny - 18)
+      .attr("text-anchor", "end")
+      .text("New York stops adjudicating.");
+    g.append("text")
+      .attr("class", "annotation-body")
+      .attr("x", nx).attr("y", ny + 2)
+      .attr("text-anchor", "end")
+      .text("Zero merits adjudications");
+    g.append("text")
+      .attr("class", "annotation-body")
+      .attr("x", nx).attr("y", ny + 18)
+      .attr("text-anchor", "end")
+      .text("in the Court of Appeals after this decade.");
+    // a short pointer from the text to the 1920 band
+    g.append("path")
+      .attr("d", `M ${nx + 2} ${ny} Q ${inflectionX - 14} ${ny - 6} ${inflectionX - 2} ${ny - 20}`)
+      .attr("fill", "none")
+      .attr("stroke", "var(--ny)")
+      .attr("stroke-width", 0.55);
+  }
+
+  // ---- success-rate equality callout, lower-left ----
+  // A small one-line note: "pre-1920 success rates near-identical: NY 31% · IL 32%"
+  g.append("text")
+    .attr("class", "annotation")
+    .attr("x", 0).attr("y", innerH + 50)
+    .attr("text-anchor", "start")
+    .text("WHERE THE DEFENSE IS ADJUDICATED, SUCCESS RATES CONVERGE:");
+  g.append("text")
+    .attr("class", "annotation-body")
+    .attr("x", 0).attr("y", innerH + 66)
+    .attr("text-anchor", "start")
+    .text(" NY 11 / 35 succeeded (31%) · IL 12 / 37 succeeded (32%) — the divergence is survival, not outcome.");
+
+  // ---- chart title strip (section label like decade_rates) ----
+  g.append("text")
+    .attr("class", "annotation")
+    .attr("x", 0).attr("y", -44)
+    .attr("text-anchor", "start")
+    .text("two state supreme courts · merits-adjudicated act-of-god defense · rate per 10k opinions by decade");
+}
+</script>
+
+</body>
+</html>
