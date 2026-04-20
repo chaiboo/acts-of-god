@@ -153,22 +153,14 @@
   .hero {
     position: relative;
     margin: 0 0 12px;
-    display: grid;
-    grid-template-columns: minmax(0, 3fr) minmax(240px, auto);
-    gap: 40px;
-    align-items: start;
+    padding-right: 300px;
   }
   .hero > .stat-strip {
-    grid-column: 2;
-    grid-row: 1 / span 2;
-    align-self: start;
-    margin-top: 4px;
-    justify-self: end;
+    position: absolute;
+    top: 4px;
+    right: 0;
     width: 260px;
   }
-  .hero > h1,
-  .hero > .dek,
-  .hero > .lede { grid-column: 1; }
   .hero .kicker {
     font-family: "JetBrains Mono", Menlo, monospace;
     font-size: 10.5px;
@@ -323,11 +315,13 @@
 
   /* Figure frame — paper-colored card on white page */
   .fig-wrap {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) var(--gutter-w);
-    gap: 20px;
-    align-items: start;
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+    max-width: 1180px;
   }
+  .fig-wrap > .fig { flex: 0 1 auto; max-width: 880px; width: 100%; }
+  .fig-wrap > .caption { flex: 0 0 240px; }
   .fig {
     background: var(--paper);
     border: 0.5px solid var(--rule);
